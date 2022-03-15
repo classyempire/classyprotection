@@ -48,9 +48,9 @@ async def help_command(_, message: Message):
         return await message.reply("🛡️𝐏𝐌 𝐌𝐞 𝐅𝐨𝐫 𝐇𝐞𝐥𝐩🛡️", reply_markup=kb)
     kb = ikb(
         {
-            "Help": "bot_commands",
+            "💫𝐇𝐞𝐥𝐩💫": "bot_commands",
             "🍹𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🍹": "https://t.me/The_Death_Soul",
-            "➕𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩➕": f"https://t.me/{BOT_USERNAME}?startgroup=new",
+            "➕𝐀𝐝𝐝 𝐌𝐞➕": f"https://t.me/{BOT_USERNAME}?startgroup=new",
             "🥂𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐂𝐡𝐚𝐭🥂": "https://t.me/Love_Dear_Comrades",
         }
     )
@@ -83,9 +83,9 @@ async def help_parser(name, keyboard=None):
             paginate_modules(0, HELPABLE, "help")
         )
     return (
-        f"Hello {name}, 🕊️I'm Zara SpamProtectionbot🕊️, I can protect "
-        + "your group from Spam and NSFW media using "
-        + "machine learning. Choose an option from below.",
+        f"Hello {name}, 🕊️I'ɱ Zαɾα SραɱPɾσƚҽƈƚισɳႦσƚ🕊️, I ƈαɳ ρɾσƚҽƈƚ  "
+        + "ყσυɾ ɠɾσυρ ϝɾσɱ Sραɱ αɳԃ NSFW ɱҽԃια "
+        + "υʂιɳɠ ɱαƈԋιɳҽ ʅҽαɾɳιɳɠ. Cԋσσʂҽ αɳ σρƚισɳ ϝɾσɱ Ⴆҽʅσɯ.",
         keyboard,
     )
 
@@ -99,9 +99,9 @@ async def help_button(client, query: CallbackQuery):
     create_match = re.match(r"help_create", query.data)
     u = query.from_user.mention
     top_text = (
-        f"Hello {u}, 🕊️I'm Zara SpamProtectionbot🕊️, I can protect "
-        + "your group from Spam and NSFW media using "
-        + "machine learning. Choose an option from below."
+        f"Hello {u}, 🕊️I'ɱ Zαɾα SραɱPɾσƚҽƈƚισɳႦσƚ🕊️, I ƈαɳ ρɾσƚҽƈƚ "
+        + "ყσυɾ ɠɾσυρ ϝɾσɱ Sραɱ αɳԃ NSFW ɱҽԃια "
+        + "υʂιɳɠ ɱαƈԋιɳҽ ʅҽαɾɳιɳɠ. Cԋσσʂҽ αɳ σρƚισɳ ϝɾσɱ Ⴆҽʅσɯ."
     )
     if mod_match:
         module = mod_match.group(1)
