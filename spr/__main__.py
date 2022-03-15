@@ -50,7 +50,7 @@ async def help_command(_, message: Message):
         {
             "💫𝐇𝐞𝐥𝐩💫": "bot_commands",
             "🍹𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🍹": "https://t.me/The_Death_Soul",
-            "➕𝐀𝐝𝐝 𝐌𝐞➕": f"https://t.me/{BOT_USERNAME}?startgroup=new",
+            "💠𝐀𝐝𝐝 𝐌𝐞💠": f"https://t.me/{BOT_USERNAME}?startgroup=new",
             "🥂𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐂𝐡𝐚𝐭🥂": "https://t.me/Love_Dear_Comrades",
         }
     )
