@@ -34,7 +34,7 @@ $ python3 -m spr
 
 # Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/The-Death-Soul-Robot/ZarSpamProtectionbot/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/The-Death-Soul-Robot/Zara_SpamProtectionbot/)
 
 # Docker
 
