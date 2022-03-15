@@ -57,8 +57,8 @@ async def help_command(_, message: Message):
     mention = message.from_user.mention
     await message.reply_photo(
         "https://te.legra.ph/file/6346e511ab1a8b2aeb17b.jpg",
-        caption=f"Hi {mention}, 🕊️I'm Zara SpamProtectionbot🕊️,"
-        + " Choose An Option From Below.",
+        caption=f"Hi {mention}, 🕊️I'ɱ Zαɾα SραɱPɾσƚҽƈƚισɳႦσƚ🕊️,"
+        + " Zαɾα Sραɱ ρɾσƚҽƈƚισɳ ιʂ αɳ ҽʂʂҽɳƚιαʅ ραɾƚ σϝ ɱαɳαɠιɳɠ Pɾιʋαƈყ αɳԃ Pσʅιƈιҽʂ.Cԋσσʂҽ αɳ σρƚισɳ ϝɾσɱ Ⴆҽʅσɯ..",
         reply_markup=kb,
     )
 
