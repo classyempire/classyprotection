@@ -49,9 +49,9 @@ async def help_command(_, message: Message):
     kb = ikb(
         {
             "Help": "bot_commands",
-            "🍹ᴅᴇᴠᴇʟᴏᴘᴇʀ🍹": "https://t.me/The_Death_Soul",
-            "➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕": f"https://t.me/{BOT_USERNAME}?startgroup=new",
-            "🥂sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ🥂": "https://t.me/Love_Dear_Comrades",
+            "🍹𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫🍹": "https://t.me/The_Death_Soul",
+            "➕𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩➕": f"https://t.me/{BOT_USERNAME}?startgroup=new",
+            "🥂𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐂𝐡𝐚𝐭🥂": "https://t.me/Love_Dear_Comrades",
         }
     )
     mention = message.from_user.mention
