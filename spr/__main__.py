@@ -45,7 +45,7 @@ async def main():
 async def help_command(_, message: Message):
     if message.chat.type != "private":
         kb = ikb({"Help": f"https://t.me/{BOT_USERNAME}?start=help"})
-        return await message.reply("Pm Me For Help", reply_markup=kb)
+        return await message.reply("🛡️𝐏𝐌 𝐌𝐞 𝐅𝐨𝐫 𝐇𝐞𝐥𝐩🛡️", reply_markup=kb)
     kb = ikb(
         {
             "Help": "bot_commands",
@@ -56,7 +56,7 @@ async def help_command(_, message: Message):
     )
     mention = message.from_user.mention
     await message.reply_photo(
-        "https://hamker.me/logo_3.png",
+        "https://te.legra.ph/file/6346e511ab1a8b2aeb17b.jpg",
         caption=f"Hi {mention}, 🕊️I'm Zara SpamProtectionbot🕊️,"
         + " Choose An Option From Below.",
         reply_markup=kb,
@@ -83,7 +83,7 @@ async def help_parser(name, keyboard=None):
             paginate_modules(0, HELPABLE, "help")
         )
     return (
-        f"Hello {name}, I'm SpamProtectionRobot, I can protect "
+        f"Hello {name}, 🕊️I'm Zara SpamProtectionbot🕊️, I can protect "
         + "your group from Spam and NSFW media using "
         + "machine learning. Choose an option from below.",
         keyboard,
@@ -99,7 +99,7 @@ async def help_button(client, query: CallbackQuery):
     create_match = re.match(r"help_create", query.data)
     u = query.from_user.mention
     top_text = (
-        f"Hello {u}, I'm SpamProtectionRobot, I can protect "
+        f"Hello {u}, 🕊️I'm Zara SpamProtectionbot🕊️, I can protect "
         + "your group from Spam and NSFW media using "
         + "machine learning. Choose an option from below."
     )
@@ -107,7 +107,7 @@ async def help_button(client, query: CallbackQuery):
         module = mod_match.group(1)
         text = (
             "{} **{}**:\n".format(
-                "Here is the help for", HELPABLE[module].__MODULE__
+                "🍸𝐇𝐞𝐫𝐞 𝐈𝐬 𝐓𝐡𝐞 𝐇𝐞𝐥𝐩 𝐅𝐨𝐫🍸", HELPABLE[module].__MODULE__
             )
             + HELPABLE[module].__HELP__
         )
