@@ -6,7 +6,7 @@
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/classyempire/)
 
 
-<img src="[https://hamker.me/logo_3.png](https://te.legra.ph/file/6397c1c736cd21831c1a6.jpg)" width="300" align="right">
+<img src="https://te.legra.ph/file/6397c1c736cd21831c1a6.jpg" width="300" align="right">
 
 
 ## Requirements
