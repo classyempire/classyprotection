@@ -1,9 +1,9 @@
-# ✨ Zara_SpamProtectionbot ✨
+# ✨ classy_SpamProtectionbot ✨
 ### Anti Spam/NSFW Telegram Bot Written In Python With Pyrogram.
 
 
 [![Python](http://forthebadge.com/images/badges/made-with-python.svg)](https://python.org)&nbsp;
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/TheHamkerCat/)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/classyempire/)
 
 
 <img src="https://hamker.me/logo_3.png" width="300" align="right">
