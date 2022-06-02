@@ -1,8 +1,8 @@
 {
     "name": "Zara_SpamProtectionbot",
     "description": "Anti Spam/NSFW Telegram Bot Written In Python With Pyrogram.",
-    "repository": "https://github.com/The-Death-Soul-Robot/Zara_SpamProtectionRobot",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+    "repository": "https://github.com/classyempire/classyprotection",
+    "logo": "https://te.legra.ph/file/6397c1c736cd21831c1a6.jpg",
     "keywords": [
     "python3",
     "telegram",
